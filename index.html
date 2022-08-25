@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea HTML_Formularios de Rick Gatica</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Selecciona tu idioma</legend>
+        <input type="radio" name="idioma" value="idiomaingles checked" />Inglés
+        <input type="radio" name="idioma" value="idiomaaleman" />Alemán
+        <input type="radio" name="idioma" value="idiomafrances" />Francés
+      </fieldset>
+      <br>
+      <fieldset>
+        <label> conector
+            <select>
+                <option value="USB">usb</option>
+                <option value="Paralelo">paralelo</option>
+                <option value="PS2">ps2</option>
+            </select>
+        </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <label>
+            <input type="text" name="nombre"> Nombre
+            <br>
+            <input type="text" name="apellidos"> Apellidos
+        </label>
+      </fieldset>
+      <br>
+      <div>
+        <label> Selecciona tu Sexo
+            <select name="sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+        </label>
+      </div>
+      <br>
+      <fieldset>
+        <legend>Selecciona tu sexo</legend>
+        <div>
+            <input type="checkbox" name="sexo" value="sexomujer" checked> Mujer
+        </div>
+        <div>
+            <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+        </div>
+        <div>
+            <input type="checkbox" name="sexo" value="sexo-otro"> Otro
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Cuando estas de cumpleanios?</legend>
+        <div>
+            <label> Selecciona Fecha
+                <input type="date" name="birthday" >
+            </label>
+        </div>
+      </fieldset>
+    </form>
+    <br>
+    <a href="/formularios_html2.html">Ir a Formularios_html2</a>
+  </body>
+</html>
